@@ -1,4 +1,4 @@
-import asyncio
+/import asyncio
 import re
 import ast
 import math
@@ -518,9 +518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
-                  ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalCynite")
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -555,7 +553,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ʀᴇᴘᴏʀᴛ ʙᴜɢs & ꜰᴇᴇᴅʙᴀᴄᴋ', url=GRP_LNK)
         ],[
-            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/cynitebackup")
+            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ', url="https://t.me/FilmyAdda_1")
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
@@ -718,10 +716,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "cynite_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/CyniteBackup')
+                      InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='t.me/FilmyAdda_1')
                      ], [
-                      InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='t.me/Cynitesupport'),
-                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/cynitebackup')
+                      InlineKeyboardButton('Owner', url='t.me/Sujan_Ch'),
+                      InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='t.me/FilmyAdda_1')
                      ], [
                       InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
                      ]]
